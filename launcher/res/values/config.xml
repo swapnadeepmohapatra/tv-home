@@ -6,11 +6,11 @@
 <resources>
     <!-- Dock apps, left to right. Apps that aren't installed are skipped. -->
     <string-array name="dock_apps">
-        <item>com.apple.atve.androidtv.appletv</item>
-        <item>com.google.android.youtube.tv</item>
-        <item>in.startv.hotstar</item>
         <item>com.netflix.ninja</item>
+        <item>com.google.android.youtube.tv</item>
         <item>com.amazon.amazonvideo.livingroom</item>
+        <item>in.startv.hotstar</item>
+        <item>com.apple.atve.androidtv.appletv</item>
     </string-array>
 
     <!-- Never shown as tiles: system helpers, and the Live TV app (it's in the Inputs menu). -->
@@ -27,11 +27,11 @@
     <!-- The TV's Live TV / tuner app, listed last in the Inputs menu. Empty to leave it out.
          Common ones: com.tcl.tv (TCL), com.mediatek.wwtv.tvcenter (Xiaomi, many MediaTek sets),
          com.google.android.tv (Google Live Channels), com.sony.dtv.tvx (Sony),
-         com.cltv.hybrid (Haier Google TV; also set it as input_picker_package). -->
-    <string name="live_tv_package" translatable="false">com.tcl.tv</string>
+         com.cltv.hybrid (Haier Google TV). -->
+    <string name="live_tv_package" translatable="false">com.cltv.hybrid</string>
 
     <!-- The manufacturer's own source picker, used if switching to an input directly fails. -->
-    <string name="input_picker_package" translatable="false">com.tcl.suspension</string>
+    <string name="input_picker_package" translatable="false">com.cltv.hybrid</string>
 
     <!-- Tiles per row in the grid. -->
     <integer name="columns">5</integer>

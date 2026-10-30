@@ -63,7 +63,7 @@ Undo everything with `tools/restore.sh <the same list>`.
   dropdown; the remote's Menu key opens it too), **Wi-Fi** (shows the network name) and **Settings**.
 - A dock of your favourite apps. The focused app's name appears above it over a glow coloured from
   its banner. Press Down for every other app in a grid.
-- 12 nature photos crossfade every 10 minutes, with a scrim so text stays readable. Swap them in
+- 12 dark space photos crossfade every minute, with a scrim so text stays readable. Swap them in
   `launcher/assets/wallpapers/` (1920×1080 JPEGs, credits in `launcher/WALLPAPER-CREDITS.md`).
 - Deterministic D-pad focus, remembers the last tile, picks up newly installed apps on return.
 
